@@ -1077,15 +1077,18 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 42px;
+  color: lightyellow;
 }
 h2,
 .h2 {
   font-size: 30px;
+
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 30px;
+    color: lightgoldenrodyellow;
 }
 h4,
 .h4 {

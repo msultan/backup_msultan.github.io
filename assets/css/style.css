@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
@@ -201,11 +200,11 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/protein_header.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 650px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -219,6 +218,7 @@ input {
     background-size: cover;
     color: white;
 }
+
 
 #h .logo {
 	margin-top: 30px;
@@ -315,7 +315,7 @@ input {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: white;
+    color: whitesmoke;
 }
 
 #sep h3 {
