@@ -341,11 +341,11 @@ input {
 
 /* HEADER 2 - PORTFOLIO SECTION */
 #h2 {
-	background: url(../img/header-2.jpg) no-repeat center top;
+	background: url(../img/p2.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
-	background-position: center center;
-	min-height: 700px;
+	background-position: center;
+	min-height: 500px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -368,11 +368,18 @@ input {
 
 #h2 .logo h2{
 	font-weight: 900;
-	color: white;
+	color: black;
 	letter-spacing: 1px;
 }
 
+
+
+#h2 h1 {
+	color: black;
+}
 #h2 h3 {
+    size: 22px;
+    color: black;
 	margin-top: 30px;
 	letter-spacing: 1px;
 }
