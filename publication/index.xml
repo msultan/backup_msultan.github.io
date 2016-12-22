@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication-rsses on Muneeb Sultan</title>
+    <link>https://www.msultan.github.io/publication/index.xml</link>
+    <description>Recent content in Publication-rsses on Muneeb Sultan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mohammad Muneeb Sultan</copyright>
+    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimized parameter selection reveals trends in Markov state models for protein folding</title>
+      <link>https://www.msultan.github.io/publication/optimizedfolding/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/optimizedfolding/</guid>
+      <description>&lt;p&gt;As molecular dynamics simulations access increasingly longer time scales, complementary advances in the analysis of
+biomolecular time-series data are necessary. Markov state models offer a powerful framework for this analysis by
+describing a system’s states and the transitions between them. A recently established variational theorem for Markov
+state models now enables modelers to systematically determine the best way to describe a system’s dynamics. In the
+context of the variational theorem, we analyze ultra-long folding simulations for a canonical set of twelve proteins
+[K. Lindorff-Larsen et al., Science 334, 517 (2011)] by creating and evaluating many types of Markov state models.
+We present a set of guidelines for constructing Markov state models of protein folding; namely, we recommend the use
+of cross-validation and a kinetically motivated dimensionality reduction step for improved descriptions of folding
+dynamics. We also warn that precise kinetics predictions rely on the features chosen to describe the system and pose
+the description of kinetic uncertainty across ensembles of models as an open issue.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MSMBuilder: Statistical Models for Biomolecular Dynamics</title>
+      <link>https://www.msultan.github.io/publication/msmb/</link>
+      <pubDate>Sun, 30 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/msmb/</guid>
+      <description>&lt;p&gt;MSMBuilder is a software package for building statistical models of high-dimensional time-series data. It is
+ designed with a particular focus on the analysis of atomistic simulations of biomolecular dynamics such as protein
+ folding and conformational change. MSMBuilder is named for its ability to construct Markov State Models (MSMs),
+ a class of models that has gained favor among computational biophysicists. In addition to both well-established and
+ newer MSM methods, the package includes complementary algorithms for understanding time-series data such as hidden
+ Markov models (HMMs) and time-structure based independent component analysis (tICA). MSMBuilder boasts an easy to
+ use command-line interface, as well as clear and consistent abstractions through its Python API (application
+ programming interface). MSMBuilder is developed with careful consideration for compatibility with the broader
+  machine-learning community by following the design of scikit-learn. The package is used primarily by practitioners
+  of molecular dynamics but is just as applicable to other computational or experimental time-series measurements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Osprey: Hyperparameter Optimization for Machine Learning</title>
+      <link>https://www.msultan.github.io/publication/osprey/</link>
+      <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/osprey/</guid>
+      <description>&lt;p&gt;Osprey is a tool for hyperparameter optimization of machine learning algorithms in Python. Hyperparameter optimization
+can often be an onerous process for researchers, due to time-consuming experimental replicates, non-convex objective
+ functions, and constant tension between exploration of global parameter space and local optimization (Jones, Schonlau,
+  and Welch 1998). We&amp;rsquo;ve designed Osprey to provide scientists with a practical, easy-to-use way of finding optimal
+  model parameters. The software works seamlessly with scikit-learn estimators (Pedregosa et al. 2011) and supports
+  many different search strategies for choosing the next set of parameters with which to evaluate a given model,
+  including gaussian processes (GPy 2012), tree-structured Parzen estimators (Yamins, Tax, and Bergstra 2013),
+  as well as random and grid search. As hyperparameter optimization is an embarrassingly parallel problem, Osprey
+  can easily scale to hundreds of concurrent processes by executing a simple command-line program multiple times.
+  This makes it easy to exploit large resources available in high-performance computing environments.&lt;/p&gt;
+
+&lt;p&gt;Osprey is actively maintained by researchers at Stanford University and other institutions around the world. While
+originally developed to analyze computational protein dynamics (McGibbon, Harrigan, et al. 2016), it is applicable to
+any scikit-learn-compatible pipeline. The source code for Osprey is hosted on GitHub and has been archived to Zenodo
+(McGibbon, Hernández, et al. 2016). Full documentation can be found at &lt;a href=&#34;http://msmbuilder.org/osprey&#34;&gt;http://msmbuilder.org/osprey&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic selection of order parameters in the analysis of large scale molecular dynamics simulations</title>
+      <link>https://www.msultan.github.io/publication/treeclf/</link>
+      <pubDate>Wed, 22 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/treeclf/</guid>
+      <description>&lt;p&gt;Given the large number of crystal structures and NMR ensembles that have been solved to date, classical molecular
+ dynamics (MD) simulations have become powerful tools in the atomistic study of the kinetics and thermodynamics of
+ biomolecular systems on ever increasing time scales. By virtue of the high-dimensional conformational state space
+ that is explored, the interpretation of large-scale simulations faces difficulties not unlike those in the big data
+ community. We address this challenge by introducing a method called clustering based feature selection (CB-FS) that
+ employs a posterior analysis approach. It combines supervised machine learning (SML) and feature selection with Markov
+ state models to automatically identify the relevant degrees of freedom that separate conformational states. We
+ highlight the utility of the method in the evaluation of large-scale simulations and show that it can be used for
+ the rapid and automated identification of relevant order parameters involved in the functional transitions of two
+ exemplary cell-signaling proteins central to human disease states.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding Protein Dynamics with L1-Regularized Reversible Hidden Markov Models</title>
+      <link>https://www.msultan.github.io/publication/hmm/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/hmm/</guid>
+      <description>&lt;p&gt;We present a machine learning framework for modeling protein dynamics. Our approach uses L1-regularized, reversible
+hidden Markov models to understand large protein datasets generated via molecular dynamics simulations. Our model is
+motivated by three design principles: (1) the requirement of massive scalability; (2) the need to adhere to relevant physical law; and (3) the necessity of providing accessible interpretations, critical
+for both cellular biology and rational drug design. We present an EM algorithm for learning and introduce a model
+selection criteria based on the physical notion of convergence in relaxation timescales. We contrast our model with
+standard methods in biophysics and demonstrate improved robustness. We implement our algorithm on GPUs and apply
+the method to two large protein simulation datasets generated respectively on the NCSA Bluewaters supercomputer
+and the Folding@Home distributed computing network. Our analysis identifies the conformational dynamics of the
+ubiquitin protein critical to cellular signaling, and elucidates the stepwise activation mechanism of the c-Src
+kinase protein.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Electrostatic Effects on Proton Coupled Electron Transfer in Oxomanganese Complexes Inspired by the Oxygen-Evolving Complex of Photosystem II</title>
+      <link>https://www.msultan.github.io/publication/psii/</link>
+      <pubDate>Tue, 09 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/psii/</guid>
+      <description>&lt;p&gt;The influence of electrostatic interactions on the free energy of proton coupled electron transfer in biomimetic
+oxomanganese complexes inspired by the oxygen-evolving complex (OEC) of photosystem II (PSII) are investigated.
+The reported study introduces an enhanced multiconformer continuum electrostatics (MCCE) model, parametrized at
+the density functional theory (DFT) level with a classical valence model for the oxomanganese core. The calculated
+pKa’s and oxidation midpoint potentials (Em’s) match experimental values for eight complexes, indicating that purely
+ electrostatic contributions account for most of the observed couplings between deprotonation and oxidation state
+ transitions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Allosteric pathways in imidazole glycerol phosphate synthase</title>
+      <link>https://www.msultan.github.io/publication/allopath/</link>
+      <pubDate>Wed, 28 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/publication/allopath/</guid>
+      <description>&lt;p&gt;Protein allosteric pathways are investigated in the imidazole glycerol phosphate synthase heterodimer in an effort to
+elucidate how the effector (PRFAR, N′-[(5′-phosphoribulosyl)formimino]-5-aminoimidazole-4-carboxamide ribonucleotide)
+activates glutaminase catalysis at a distance of 25 Å from the glutamine-binding site. We apply solution NMR techniques
+and community analysis of dynamical networks, based on mutual information of correlated protein motions in the active
+and inactive enzymes. We find evidence that the allosteric pathways in the PRFAR bound enzyme involve conserved residues
+that correlate motion of the PRFAR binding loop to motion at the protein-protein interface, and ultimately at the
+glutaminase active site. The imidazole glycerol phosphate synthase bienzyme is an important branch point for the histidine
+and nucleotide biosynthetic pathways and represents a potential therapeutic target against microbes. The proposed
+allosteric mechanism and the underlying allosteric pathways provide fundamental insights for the design of new allosteric
+drugs and/or alternative herbicides.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
