@@ -1,11 +1,10 @@
-baseurl = "https://www.msultan.github.io"
+baseurl = "msultan.github.io"
 title = "Muneeb Sultan"
 copyright = "&copy; 2016 Mohammad Muneeb Sultan"
 languageCode = "en-us"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
