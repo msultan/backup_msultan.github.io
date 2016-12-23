@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Muneeb Sultan</title>
-    <link>https://www.msultan.github.io/tags/drug-discovery/index.xml</link>
+    <link>msultan.github.io/tags/drug-discovery/index.xml</link>
     <description>Recent content on Muneeb Sultan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Kinase simulations</title>
-      <link>https://www.msultan.github.io/project/kinases/</link>
+      <link>/msultan.github.io/project/kinases/</link>
       <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.msultan.github.io/project/kinases/</guid>
+      <guid>/msultan.github.io/project/kinases/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Kinase&#34;&gt;Kinases&lt;/a&gt; are large family of protein found in a variety of cells that catalyze
 the transfer of ATP&amp;rsquo;s gamma phosphate group to target substrate. They initiate and control a large number of
 cellular pathways and are critical pharmaceutical targets. My research involves looking at the relationship between the
