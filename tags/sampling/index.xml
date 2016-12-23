@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muneeb Sultan</title>
+    <link>https://www.msultan.github.io/tags/sampling/index.xml</link>
+    <description>Recent content on Muneeb Sultan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mohammad Muneeb Sultan</copyright>
+    <atom:link href="/tags/sampling/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Advanced Sampling</title>
+      <link>https://www.msultan.github.io/project/sampling/</link>
+      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.msultan.github.io/project/sampling/</guid>
+      <description>&lt;p&gt;I have been interested in using MSM to extend the capability of MD simulations. The fundamental question I am
+interested in answering if whether we can reduce the computational complexity of a new simulation by leveraging
+information from the current MSM. The new simulation could be a new sequence, a new physics model or perhaps
+some post translational modification. To that end, I am borrowing ideas from Reinforcement-Learning and Markov decision
+processes.&lt;/p&gt;
+
+&lt;p&gt;Image was borrowed from &lt;a href=&#34;http://miromannino.com/artificial-intelligence-markov-decision-process/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
