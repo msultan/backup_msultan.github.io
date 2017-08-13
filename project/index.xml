@@ -55,7 +55,9 @@ information from the current MSM. The new simulation could be a new sequence, a 
 some post translational modification. To that end, I am borrowing ideas from Reinforcement-Learning and Markov decision
 processes.&lt;/p&gt;
 
-&lt;p&gt;Image was borrowed from &lt;a href=&#34;http://miromannino.com/artificial-intelligence-markov-decision-process/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recently, I showed over &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00182&#34;&gt;a&lt;/a&gt; &lt;a href=&#34;http://www.biorxiv.org/content/early/2017/07/02/158592&#34;&gt;series&lt;/a&gt;
+ of papers that the &lt;a href=&#34;http://msmbuilder.org/3.8.0/decomposition.html#tica&#34;&gt;tICA&lt;/a&gt; algorithm can be used to
+form better CV than human intuition in enhanced sampling algorithms such as Metadynamics/Umbrella sampling. This is&lt;/p&gt;
 </description>
     </item>
     

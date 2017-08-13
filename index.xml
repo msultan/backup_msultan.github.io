@@ -7,8 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mohammad Muneeb Sultan</copyright>
-    <lastBuildDate>Tue, 27 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>tICA-Metadynamics: Accelerating Metadynamics by Using Kinetically Selected Collective Variables.</title>
+      <link>/msultan.github.io/publication/ticameta/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/msultan.github.io/publication/ticameta/</guid>
+      <description>&lt;p&gt;Metadynamics is a powerful enhanced molecular
+dynamics sampling method that accelerates simulations by
+adding history-dependent multidimensional Gaussians along
+selective collective variables (CVs). In practice, choosing a
+small number of slow CVs remains challenging due to the
+inherent high dimensionality of biophysical systems. Here we
+show that time-structure based independent component
+analysis (tICA), a recent advance in Markov state model
+literature, can be used to identify a set of variationally optimal
+slow coordinates for use as CVs for Metadynamics. We show
+that linear and nonlinear tICA-Metadynamics can complement existing MD studies by explicitly sampling the system’s slowest
+modes and can even drive transitions along the slowest modes even when no such transitions are observed in unbiased
+simulations.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kinase simulations</title>
@@ -68,7 +90,9 @@ information from the current MSM. The new simulation could be a new sequence, a 
 some post translational modification. To that end, I am borrowing ideas from Reinforcement-Learning and Markov decision
 processes.&lt;/p&gt;
 
-&lt;p&gt;Image was borrowed from &lt;a href=&#34;http://miromannino.com/artificial-intelligence-markov-decision-process/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recently, I showed over &lt;a href=&#34;http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00182&#34;&gt;a&lt;/a&gt; &lt;a href=&#34;http://www.biorxiv.org/content/early/2017/07/02/158592&#34;&gt;series&lt;/a&gt;
+ of papers that the &lt;a href=&#34;http://msmbuilder.org/3.8.0/decomposition.html#tica&#34;&gt;tICA&lt;/a&gt; algorithm can be used to
+form better CV than human intuition in enhanced sampling algorithms such as Metadynamics/Umbrella sampling. This is&lt;/p&gt;
 </description>
     </item>
     

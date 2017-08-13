@@ -7,8 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Mohammad Muneeb Sultan</copyright>
-    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>tICA-Metadynamics: Accelerating Metadynamics by Using Kinetically Selected Collective Variables.</title>
+      <link>/msultan.github.io/publication/ticameta/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/msultan.github.io/publication/ticameta/</guid>
+      <description>&lt;p&gt;Metadynamics is a powerful enhanced molecular
+dynamics sampling method that accelerates simulations by
+adding history-dependent multidimensional Gaussians along
+selective collective variables (CVs). In practice, choosing a
+small number of slow CVs remains challenging due to the
+inherent high dimensionality of biophysical systems. Here we
+show that time-structure based independent component
+analysis (tICA), a recent advance in Markov state model
+literature, can be used to identify a set of variationally optimal
+slow coordinates for use as CVs for Metadynamics. We show
+that linear and nonlinear tICA-Metadynamics can complement existing MD studies by explicitly sampling the system’s slowest
+modes and can even drive transitions along the slowest modes even when no such transitions are observed in unbiased
+simulations.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Optimized parameter selection reveals trends in Markov state models for protein folding</title>
