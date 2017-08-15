@@ -18,17 +18,17 @@
   <link rel="stylesheet" href="/msultan.github.io/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="msultan.github.io/post/index.xml" type="application/rss+xml" title="Muneeb Sultan">
-  <link rel="feed" href="msultan.github.io/post/index.xml" type="application/rss+xml" title="Muneeb Sultan">
+  <link rel="alternate" href="msultan.github.io/index.xml" type="application/rss+xml" title="Muneeb Sultan">
+  <link rel="feed" href="msultan.github.io/index.xml" type="application/rss+xml" title="Muneeb Sultan">
 
   <link rel="icon" type="image/png" href="/msultan.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/msultan.github.io/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="msultan.github.io/post/">
+  <link rel="canonical" href="/msultan.github.io/post/pytorch_and_plumed/">
 
   
 
-  <title>Posts | Muneeb Sultan</title>
+  <title>Collective variables as computational graphs | Muneeb Sultan</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -92,13 +92,12 @@
 
 <div class="container">
 
-  <h1>Posts</h1>
+  <article class="article" itemscope itemtype="http://schema.org/Article">
 
-  
-  
-  <div>
     
-    <h2><a href="/msultan.github.io/post/pytorch_and_plumed/">Collective variables as computational graphs</a></h2>
+
+    <h1 itemprop="name">Collective variables as computational graphs</h1>
+
     
 
 <div class="article-metadata">
@@ -132,56 +131,84 @@
   
 
   
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fmsultan.github.io%2fpost%2fpytorch_and_plumed%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Collective%20variables%20as%20computational%20graphs&amp;url=%2fmsultan.github.io%2fpost%2fpytorch_and_plumed%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fmsultan.github.io%2fpost%2fpytorch_and_plumed%2f&amp;title=Collective%20variables%20as%20computational%20graphs"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fmsultan.github.io%2fpost%2fpytorch_and_plumed%2f&amp;title=Collective%20variables%20as%20computational%20graphs"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Collective%20variables%20as%20computational%20graphs&amp;body=%2fmsultan.github.io%2fpost%2fpytorch_and_plumed%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
 
 </div>
 
-    <div class="article-style"><p>
-      
-      Using PyTorch to enhance molecular simulations and using Plumed to classify images
-      
-    </p></div>
-  </div>
-  
-  <div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>I spent the weekend desiging a project to show how complex PyTorch computational graphs can
+be turned into collective variables inside Plumed. This was done in two parts.</p>
+
+<p><a href="(https://github.com/msultan/tf_metadynamics/blob/master/PyTorchMetadynamics.ipynb)">PyTorchMetadynamics.ipynb</a></p>
+
+<p>This Jupyter notebook encodes Metadynamics into PyTorch using a custom loss function depenedent on the history.
+The forces then become the negative of the derivatives which are automatically obtained via back propagation.
+This was performed on the Muller potential.</p>
+
+<p><a href="https://github.com/msultan/tf_metadynamics/blob/master/PlumedImagesNeuralNetwork.ipynb">PlumedImagesNeuralNetwork.ipynb</a></p>
+
+<p>This Jupyter Notebook transfers a 3-layer Image Net PyTorch Classifier into Plumed, encodes the
+images as molecular trajectories, and use Plumed to predict the un-normalized image scores.
+The plumed input file image_plumed.dat has the actual plumed neural network script.</p>
+
+<p>All the code + details are available on my <a href="https://github.com/msultan/tf_metadynamics">github</a>.</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
     
-    <h2><a href="/msultan.github.io/post/adblock-hugo/">Adblock and Hugo&#39;s academic theme</a></h2>
+    <li class="previous"><a href="/msultan.github.io/post/adblock-hugo/"><span
+      aria-hidden="true">&larr;</span> Adblock and Hugo&#39;s academic theme</a></li>
     
 
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2016-12-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Thu, Dec 22, 2016
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
     
-    <a class="article-tag-link" href="/msultan.github.iotags/adblock">adblock</a
-    >, 
-    
-    <a class="article-tag-link" href="/msultan.github.iotags/hugo">hugo</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Adblockers might disable certain icons.
-      
-    </p></div>
-  </div>
-  
+  </ul>
+</nav>
 
   
 
