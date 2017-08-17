@@ -18,17 +18,17 @@
   <link rel="stylesheet" href="/msultan.github.io/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="msultan.github.io/post/index.xml" type="application/rss+xml" title="Muneeb Sultan">
-  <link rel="feed" href="msultan.github.io/post/index.xml" type="application/rss+xml" title="Muneeb Sultan">
+  <link rel="alternate" href="msultan.github.io/index.xml" type="application/rss+xml" title="Muneeb Sultan">
+  <link rel="feed" href="msultan.github.io/index.xml" type="application/rss+xml" title="Muneeb Sultan">
 
   <link rel="icon" type="image/png" href="/msultan.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/msultan.github.io/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="msultan.github.io/post/">
+  <link rel="canonical" href="/msultan.github.io/post/autoencoders_as_cv/">
 
   
 
-  <title>Posts | Muneeb Sultan</title>
+  <title>Collective variables as computational graphs -- Part II | Muneeb Sultan</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -92,59 +92,12 @@
 
 <div class="container">
 
-  <h1>Posts</h1>
+  <article class="article" itemscope itemtype="http://schema.org/Article">
 
-  
-  
-  <div>
-    
-    <h2><a href="/msultan.github.io/post/pytorch_and_plumed/">Collective variables as computational graphs</a></h2>
     
 
-<div class="article-metadata">
+    <h1 itemprop="name">Collective variables as computational graphs -- Part II</h1>
 
-  <span class="article-date">
-    <time datetime="2017-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Aug 14, 2017
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a class="article-tag-link" href="/msultan.github.iotags/pytorch">pytorch</a
-    >, 
-    
-    <a class="article-tag-link" href="/msultan.github.iotags/plumed">plumed</a
-    >, 
-    
-    <a class="article-tag-link" href="/msultan.github.iotags/enhanced-sampling">enhanced sampling</a
-    >, 
-    
-    <a class="article-tag-link" href="/msultan.github.iotags/neural-networks">Neural networks</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Using PyTorch to enhance molecular simulations and using Plumed to classify images
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="/msultan.github.io/post/autoencoders_as_cv/">Collective variables as computational graphs -- Part II</a></h2>
     
 
 <div class="article-metadata">
@@ -181,56 +134,86 @@
   
 
   
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fmsultan.github.io%2fpost%2fautoencoders_as_cv%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Collective%20variables%20as%20computational%20graphs%20--%20Part%20II&amp;url=%2fmsultan.github.io%2fpost%2fautoencoders_as_cv%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fmsultan.github.io%2fpost%2fautoencoders_as_cv%2f&amp;title=Collective%20variables%20as%20computational%20graphs%20--%20Part%20II"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fmsultan.github.io%2fpost%2fautoencoders_as_cv%2f&amp;title=Collective%20variables%20as%20computational%20graphs%20--%20Part%20II"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Collective%20variables%20as%20computational%20graphs%20--%20Part%20II&amp;body=%2fmsultan.github.io%2fpost%2fautoencoders_as_cv%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
 
 </div>
 
-    <div class="article-style"><p>
-      
-      Using Autoencoders to enhance molecular simulations via Metadynamics.
-      
-    </p></div>
-  </div>
-  
-  <div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p><a href="plumed.github.io">Plumed</a> is a powerful library used for running enhanced sampling simulations. It implements a
+very robust Collective variable module.</p>
+
+<p>An autoencoder neural network is an unsupervised learning algorithm that tries to learn a latent space for its input.
+This is done by setting the output to the input. Thus the network tries to learn an identity function.We can now use
+this information, and restrict the middle layers of the encoding network to a singular value to
+learn the most salient features of the data. More importantly, we can use enhance sampling techniques such as
+metadynamics on this hidden layer to more efficiently sample alanine dipeptide.</p>
+
+<p><a href="https://github.com/msultan/tf_metadynamics/blob/master/PlumedPyTorchAutoEncoderCV.ipynb">PlumedPyTorchAutoEncoderCV.ipynb</a></p>
+
+<p>The Jupyter Notebook transfers a 3-layer Enocder Neural network Plumed, for enhanced sampling via Metadynamics. The
+resulting simulations are about 72x faster than regular MD alone.</p>
+
+<p>All the code + details are available on my <a href="https://github.com/msultan/tf_metadynamics">github</a>.</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
     
-    <h2><a href="/msultan.github.io/post/adblock-hugo/">Adblock and Hugo&#39;s academic theme</a></h2>
+    <li class="previous"><a href="/msultan.github.io/post/adblock-hugo/"><span
+      aria-hidden="true">&larr;</span> Adblock and Hugo&#39;s academic theme</a></li>
     
 
-<div class="article-metadata">
-
-  <span class="article-date">
-    <time datetime="2016-12-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Thu, Dec 22, 2016
-    </time>
-  </span>
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
     
-    <a class="article-tag-link" href="/msultan.github.iotags/adblock">adblock</a
-    >, 
+    <li class="next"><a href="/msultan.github.io/post/pytorch_and_plumed/">Collective variables as computational graphs <span
+      aria-hidden="true">&rarr;</span></a></li>
     
-    <a class="article-tag-link" href="/msultan.github.iotags/hugo">hugo</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Adblockers might disable certain icons.
-      
-    </p></div>
-  </div>
-  
+  </ul>
+</nav>
 
   
 

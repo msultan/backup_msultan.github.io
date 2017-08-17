@@ -34,5 +34,29 @@ The plumed input file image_plumed.dat has the actual plumed neural network scri
 </description>
     </item>
     
+    <item>
+      <title>Collective variables as computational graphs -- Part II</title>
+      <link>/msultan.github.io/post/autoencoders_as_cv/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/msultan.github.io/post/autoencoders_as_cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;plumed.github.io&#34;&gt;Plumed&lt;/a&gt; is a powerful library used for running enhanced sampling simulations. It implements a
+very robust Collective variable module.&lt;/p&gt;
+
+&lt;p&gt;An autoencoder neural network is an unsupervised learning algorithm that tries to learn a latent space for its input.
+This is done by setting the output to the input. Thus the network tries to learn an identity function.We can now use
+this information, and restrict the middle layers of the encoding network to a singular value to
+learn the most salient features of the data. More importantly, we can use enhance sampling techniques such as
+metadynamics on this hidden layer to more efficiently sample alanine dipeptide.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/msultan/tf_metadynamics/blob/master/PlumedPyTorchAutoEncoderCV.ipynb&#34;&gt;PlumedPyTorchAutoEncoderCV.ipynb&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Jupyter Notebook transfers a 3-layer Enocder Neural network Plumed, for enhanced sampling via Metadynamics. The
+resulting simulations are about 72x faster than regular MD alone.&lt;/p&gt;
+
+&lt;p&gt;All the code + details are available on my &lt;a href=&#34;https://github.com/msultan/tf_metadynamics&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
