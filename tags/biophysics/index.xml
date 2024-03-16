@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muneeb Sultan</title>
+    <link>msultan.github.io/tags/biophysics/index.xml</link>
+    <description>Recent content on Muneeb Sultan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Mohammad Muneeb Sultan</copyright>
+    <atom:link href="/tags/biophysics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kinase simulations</title>
+      <link>/msultan.github.io/project/kinases/</link>
+      <pubDate>Tue, 27 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/msultan.github.io/project/kinases/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Kinase&#34;&gt;Kinases&lt;/a&gt; are large family of protein found in a variety of cells that catalyze
+the transfer of ATP&amp;rsquo;s gamma phosphate group to target substrate. They initiate and control a large number of
+cellular pathways and are critical pharmaceutical targets. My research involves looking at the relationship between the
+sequence and dynamics of these kinases. The fundamental question that I would like to answer is what happens to the
+kinase&amp;rsquo;s underlying free energy landscape when its amino acid sequence is mutated, similar to mutations found in many
+cancers.
+To answer these questions, I am employing MD simulations combined with a new variation to MSMs which allows us to
+explicitly compare the kinetics and thermodynamics of these mutants. I have simulated over 12 milliseconds in aggregate
+data with three publications under preparation. These simulations are the largest set of kinase simulations
+ever performed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
